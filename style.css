@@ -1,0 +1,19 @@
+  body {
+      font-family: Helvetica;
+      width: 300px;
+      margin: 100px auto;
+    }
+    .container {
+      width: 306px;
+      text-align: center;
+    }
+    .box {
+      display: table;
+      background-color: black;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      float: left;
+      border: 1px solid white;
+      transition: background-color 1s, opacity 0.2s, transform 1s, border-radius .5s;
+    }
