@@ -16,18 +16,15 @@ window.onload = function() {
 			
 			this.style.borderRadius = "25px";
 			this.style.backgroundColor = getRandomColor();
-			this.style.opacity = 1;
+			this.style.opacity = .3;
 			this.style.transform = "rotate(90deg)";
 
 			// this.style.backgroundColor = getRandomColor();
-			
-			// for (var j=0; j<45; j++) {
-				
-			// }
+		
 		});
 		boxes[i].addEventListener('mouseout', function() {
 			this.style.borderRadius = "0px";
-			this.style.opacity = 0.2;
+			this.style.opacity = 1;
 			//this.style.backgroundColor = cellColor;
 			if (this.style.transform == "rotate(90deg)") {
 				this.style.transform = "rotate(-90deg)";
